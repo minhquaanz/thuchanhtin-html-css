@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        input:checked {
+            height: 50px;
+            width: 50px;
+        }
+        input:valid {
+            background-color: yellow;
+        }
+        input:invalid {
+            background-color: magenta;
+        }
+        input[type = text]:focus{
+            background-color: red;
+            outline: 2px solid green;
+        }
+        input[type=text]:enabled {
+            background: cyan;
+        }
+        input[type=text]:disabled {
+            background: silver;
+        }
+        #firstname::first-letter {
+            font-size: 200%;
+            color: blue;
+        }
+        ::selection {
+            color: black;
+            background-color: silver;
+        }
+    </style>
+    </head>
+    <body>
+        <form action>
+            <p id="firstname">First name:
+            </p>
+            <input type="text" name="firstname"><br><br>
+
+            Last name:
+            <input type="text" name="lastname"><br><br>
+
+            Email:
+            <input type="email"><br><br>
+
+            Country:
+            <input type="text" disabled="disabled" value="Viet Nam"><br><br>
+
+            <input type="checkbox" value="Bike"> I have a bike<br>
+            <input type="checkbox" value="Car"> I have a car<br>
+        </form>
+    </body>
+</html>

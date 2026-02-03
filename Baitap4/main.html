@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bai tap 4</title>
+    </head>
+    <body>
+        <fieldset>
+            <span>
+                <label for="username">Tên đăng nhập</label>
+                <input type="text" id="username" name="username" placeholder="Nhập tên đăng nhập">
+                <label for="gender">Giới tính</label>
+                <input type="radio" id="male" name="gender" value="male">Nam
+                <input type="radio" id="female" name="gender" value="female">Nữ
+                <br>
+            </span>
+            <p>Những mục bạn thường quan tâm trên Internet</p>
+            <input type="checkbox" id="news" name="hobby" value="news"
+                style="margin-left:100px">
+            <label for="news">Tin tức</label><br>
+            <!--Giải trí-->
+            <input type="checkbox" id="entertainment" name="hobby"
+                value="entertainment" style="margin-left:100px">
+            <label for="entertainment">Giải trí</label><br>
+            <!--Góc học tập-->
+            <input type="checkbox" id="study" name="hobby" value="study"
+                style="margin-left:100px">
+            <label for="study">Góc học tập</label><br>
+            <!--Các mục khác-->
+            <input type="checkbox" id="other" name="hobby" value="other"
+                style="margin-left:100px">
+            <label for="other">Các mục khác</label><br>
+
+            <input type="submit" value="Gửi đi" name="send" id="send" style="margin-left: 20px;">
+            <input type="reset" value="Phục hồi" name="reset" id="reset">
+        </fieldset>
+    </body>
+</html>

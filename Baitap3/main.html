@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Baitap3</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form action="login" method="post">
+            <lable for="FullName">Họ và tên</lable><br>
+            <input type="text" id="FullName" name="FullName"
+                placeholder="Nhập họ tên của bạn"><br>
+
+            <lable for"Email">Email</lable><br>
+            <input type="email" id="Email" name="Email"
+                placeholder="Nhập email của bạn"><br>
+
+            <lable for="Age">Tuổi</lable><br>
+            <input type="number" id="Age" name="Age"
+                placeholder="Nhập tuổi của bạn"><br>
+
+            <lable for="Job">Hiện tại bạn đang là? </lable><br>
+            <select id="Job" name="Job">
+                <option value="pupil">Học sinh</option>
+                <option value="student">Sinh viên</option>
+            </select><br>
+
+            <p>Bạn sẽ giới thiệu ITviec cho bạn bè chứ?</p>
+            <div>
+                <input type="radio" id="yes" name="invite" value="yes">
+                <label for="yes">Có</label><br>
+                <input type="radio" id="no" name="invite" value="no">
+                <label for="no">Không</label><br>
+                <input type="radio" id="maybe" name="invite" value="maybe">
+                <label for="maybe">Có thể</label><br>
+            </div>
+            <p>Ngôn ngữ lập trình bạn đã biết <span style="font-size:80%">(Có
+                    thể chọn nhiều đáp án)</span></p>
+            <div>
+                <input type="checkbox" id="C++" name="language" value="C++">
+                <label for="C++">C++</label><br>
+                <input type="checkbox" id="Java" name="language" value="Java">
+                <label for="Java">Java</label><br>
+                <input type="checkbox" id="Python" name="language"
+                    value="Python">
+                <label for="Python">Python</label><br>
+            </div>
+            <p>Bạn có câu hỏi gì cho ITviec không?</p>
+            <textarea id="question" name="question" rows="4" cols="50"
+                placeholder="Enter your comments here"></textarea><br>
+            <input type="submit" value="Submit" name="Submit"
+                style="margin-left: 170px; background-color: lime;">
+        </form>
+    </body>
+</html>

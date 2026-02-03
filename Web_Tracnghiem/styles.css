@@ -1,0 +1,173 @@
+::selection {
+    color: black;
+    background-color: silver;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(63, 63, 192);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.box {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.question {
+    font-size: 18px;
+    margin: auto;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+label:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+input:checked+label {
+    background-color: rgb(220, 220, 220);
+    font-weight: bold;
+}
+
+.result {
+    display: none;
+    margin: 12px 0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.correct {
+    color: green;
+    background-color: #e6f7e6;
+}
+
+.incorrect {
+    color: red;
+    background-color: #fdecea;
+}
+
+#q1b:checked~.correct {
+    display: block;
+}
+
+#q1a:checked~.incorrect,
+#q1c:checked~.incorrect,
+#q1d:checked~.incorrect {
+    display: block;
+}
+
+#q2b:checked~.correct {
+    display: block;
+}
+
+#q2a:checked~.incorrect,
+#q2c:checked~.incorrect,
+#q2d:checked~.incorrect {
+    display: block;
+}
+
+#q3b:checked~.correct {
+    display: block;
+}
+
+#q3a:checked~.incorrect,
+#q3c:checked~.incorrect,
+#q3d:checked~.incorrect {
+    display: block;
+}
+
+#q4b:checked~.correct {
+    display: block;
+}
+
+#q4a:checked~.incorrect,
+#q4c:checked~.incorrect,
+#q4d:checked~.incorrect {
+    display: block;
+}
+
+#q5b:checked~.correct {
+    display: block;
+}
+
+#q5a:checked~.incorrect,
+#q5c:checked~.incorrect,
+#q5d:checked~.incorrect {
+    display: block;
+}
+
+#q6b:checked~.correct {
+    display: block;
+}
+
+#q6a:checked~.incorrect,
+#q6c:checked~.incorrect,
+#q6d:checked~.incorrect {
+    display: block;
+}
+
+#q7b:checked~.correct {
+    display: block;
+}
+
+#q7a:checked~.incorrect,
+#q7c:checked~.incorrect,
+#q7d:checked~.incorrect {
+    display: block;
+}
+
+#q8b:checked~.correct {
+    display: block;
+}
+
+#q8a:checked~.incorrect,
+#q8c:checked~.incorrect,
+#q8d:checked~.incorrect {
+    display: block;
+}
+
+#q9b:checked~.correct {
+    display: block;
+}
+
+#q9a:checked~.incorrect,
+#q9c:checked~.incorrect,
+#q9d:checked~.incorrect {
+    display: block;
+}
+
+#q10b:checked~.correct {
+    display: block;
+}
+
+#q10a:checked~.incorrect,
+#q10c:checked~.incorrect,
+#q10d:checked~.incorrect {
+    display: block;
+}

@@ -1,0 +1,16 @@
+table,
+th,
+td {
+  width: fit-content;
+  text-align: center;
+  /* border-collapse: collapse; */
+  border: 0px dashed blue;
+
+  th,
+  td {
+    padding: 2px 5px;
+    border: 2px dashed blue;
+  }
+
+  border-radius: 8px;
+}
